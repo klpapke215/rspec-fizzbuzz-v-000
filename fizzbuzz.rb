@@ -8,7 +8,7 @@ end
 elsif int % 3 == 0 && int % 5 == 0
   "Fizzbuzz"
 end
-else
+else int % 3 !== 0 && int % 5 !== 0
   "Nil"
 end
 end
